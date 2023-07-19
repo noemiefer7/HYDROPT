@@ -1,13 +1,9 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
 def plot_map(phyto, cdom, mask):
 
-
-    
     carte_phyto = phyto*mask
     carte_cdom = cdom*mask
-    
     
     fig,axs=plt.subplots(1,2,figsize=(10,10))
     
