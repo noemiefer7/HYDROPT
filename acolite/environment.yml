@@ -1,0 +1,19 @@
+name: acolite
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3
+  - pyresample
+  - cartopy
+  - scipy
+  - numpy
+  - pyhdf
+  - gdal
+  - netcdf4
+  - h5py
+  - pygrib
+  - requests
+  - matplotlib
+  - scikit-image
+  - pyproj
